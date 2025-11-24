@@ -7,6 +7,8 @@ The goal is to explore how various optimizers (e.g., SGD, Adam, RMSprop) affect 
 ---
 
 ## 📁 Project Structure
+
+```text
 Optimizers with Fashion-MNIST/
 │
 ├── Experiment_code/              # Main code for training and evaluation
@@ -19,7 +21,7 @@ Optimizers with Fashion-MNIST/
 │   └── comparison_table.xlsx     # Performance comparison table
 │
 ├── Compare_tabel.docx            # Word document with detailed results
-└── README.txt                     # This file(Including the experimental environment setup and dependent libraries)
+└── README.md                     # This file(Including the experimental environment setup and dependent libraries)
 
 ---
 
@@ -40,7 +42,6 @@ Each model was trained with each optimizer, resulting in a total of `n_models ×
 ---
 
 ## 🚀 How to Run the Code
-
 1. Clone this repository:
    ```bash
    git clone https://github.com/xiaowang9264/Hong.git
