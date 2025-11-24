@@ -21,13 +21,19 @@ Optimizers with Fashion-MNIST/
 │   └── comparison_table.xlsx     # Performance comparison table
 │
 ├── Compare_tabel.docx            # Word document with detailed results
-└── README.md                     # This file(Including the experimental environment setup and dependent libraries)
+└── requirements.txt              # Including the experimental dependent libraries
 
 ```
 
 ---
 
 ## 🧪 Experimental Setup
+
+### environment setup
+GPU：RTX GeForce 4070super 12GB  
+CUDA：12.1  
+Pytorch：2.4.1
+Python：3.10
 
 ### Dataset
 - **Fashion-MNIST**: A 60,000-sample grayscale image dataset consisting of 10 classes (e.g., T-shirt, Trouser, Pullover, etc.), each with 28×28 pixels.
@@ -57,7 +63,7 @@ cd Experiment_code
 
 3.Install required dependencies (recommended via pip):
 ```bash
-pip install torch torchvision matplotlib numpy pandas
+pip install -r requirements.txt
 ```
 
 4.Run the experiment:
