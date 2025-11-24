@@ -45,25 +45,25 @@ Each model was trained with each optimizer, resulting in a total of `n_models ×
 
 ## 🚀 How to Run the Code
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/xiaowang9264/Hong.git
-   cd Optimizers-with-Fashion-MNIST
-   ```
+```bash
+git clone https://github.com/xiaowang9264/Hong.git
+cd Optimizers-with-Fashion-MNIST
+```
 
 2.Navigate to the code directory:
-   ```bash
-   cd Experiment_code
-   ```
+```bash
+cd Experiment_code
+```
 
 3.Install required dependencies (recommended via pip):
-   ```bash
-   pip install torch torchvision matplotlib numpy pandas
-   ```
+```bash
+pip install torch torchvision matplotlib numpy pandas
+```
 
 4.Run the experiment:
-   ```bash
-   python main.py
-   ```
+```bash
+python main.py
+```
 ---
 
 ## 📊 Results & Analysis
